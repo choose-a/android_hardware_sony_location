@@ -1,6 +1,6 @@
 ifneq ($(USE_DEVICE_SPECIFIC_LOC_API),true)
 
-ifneq ($(filter yukon rhine shinano kanuti kitakami loire tone yoshino,$(PRODUCT_PLATFORM)),)
+ifneq ($(filter yukon rhine shinano kanuti kitakami,$(PRODUCT_PLATFORM)),)
 
 ifneq ($(BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE),)
 
